@@ -17,3 +17,6 @@ export GIT_PS1_SHOWDIRTYSTATE=1
 # '\$(__git_ps1)' adds git-related stuff
 # '\W' adds the name of the current directory
 export PS1="$purple\u@\h$green\$(__git_ps1)$blue \W $yellow\D{%F %T} \n$blue\$ $reset"
+
+#=======================Map CapsLock to Ctrl==================                                                
+setxkbmap -option caps:ctrl_modifier
